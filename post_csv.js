@@ -5,7 +5,8 @@ const serverhttp = require('./post_simple')
 const yargs = require('yargs');
 
 var filename = 'COOIS_components.txt'
-var url = 'http://localhost/forms/bot/generic' //'http://nzl57wstdashbd/forms/bot/generic'
+//var url = 'http://localhost/forms/bot/generic' 
+var url = 'http://nzl57wstdashbd/forms/bot/generic'
 
 
 const data = ({
