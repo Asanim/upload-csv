@@ -3,6 +3,10 @@ Introduction
 The program parses a CSV file and uploads it to the TE Connectivity QCPC server in graph format (JSON) for the display of a arbitary graph
 
 Example:
+-> first test that the file is parsed correctly
+node post_csv.js test -f COOIS_components.txt
+
+-> run the upload program, matching the parsed fields to the Chart JSON object's (see Chart Fields below)
 node post_csv.js upload -f COOIS_components.txt -p Work_ctr bar Material_Description Reqmt_Date StgInd
 
 -f specifies the file location relative to the base directory
